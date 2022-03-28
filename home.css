@@ -1,0 +1,456 @@
+body{
+    margin:auto;
+}
+a{
+    text-decoration:none;
+}
+#header{
+    height:60px;
+    background-color:#ebc62a6e;
+}
+h1{
+    text-align:center;
+    margin-left:100px;
+}
+#r1{
+    margin-top:30px;
+}
+
+#icon{
+    float: left;
+    margin-left:4%;
+    margin-top:-1%;
+}
+
+#social{
+    float: right; 
+}
+.btn{
+    margin-top:10px;
+    margin-left:24px;
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+
+#search{
+    height:400px;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size: 100% 400px;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color:rgb(240 229 229/ 60%);
+    border-radius: 50%;
+    margin-left: 490px;
+    margin-top:-374px;
+    position:absolute;
+    animation:revolve 10s;
+}
+@keyframes revolve {
+    0% {transform:rotate(72deg);
+        margin-left:10%;
+    }
+    25% {transform:rotate(144deg);
+        margin-left:20%;
+    }
+    50% {transform:rotate(216deg);
+        margin-left:40%;
+    }
+    75% {transform:rotate(288deg);
+        margin-left:80%;
+    }
+    100% {transform:rotate(360deg);
+        margin-left:40%;
+    }
+}
+
+
+#logo>span{
+    margin-left: 28%;
+    margin-top:16%;
+    position:absolute;
+    font-size: 80px;
+}
+
+#heading{
+    margin-left: 31%;
+    margin-top: -18%;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}
+
+.dropdown{
+    height:60px;
+    width:56%;
+    margin-left: 24%;
+    margin-top: 25%;
+    position: absolute;
+}
+#b1{
+    margin-left:32px;
+    width:236px;
+    height:49px;
+}
+#threee{
+    height:60px;
+    width:40%;
+    font-size:20px;
+    text-align:center;
+    float:left;
+    margin-left: 266px;
+    margin-top: -46px;
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size:20px;
+    text-align:center;
+    color:bisque;
+}
+
+.resselect{
+    width:55%;
+}
+
+
+#quicksearch{
+    width:80%;
+    margin-left:10%;
+    margin-top: 2%;
+}
+
+#quickHeading{
+     font-size:30px;
+     color:#e28b62;
+     display:block;
+     font-weight:bold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-left: 2%;
+}
+#quickHeading:hover{
+    font-size:40px;
+}
+#quickSubHeading{
+    font-size:20px;
+    color:gray;
+    display:block;
+    line-height: 3;
+    margin-left: 2%;
+}
+.titleContainer{
+    width:30%;
+    box-shadow: 10px 20px 40px gray;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+    animation:dance 20s infinite;
+}
+@keyframes dance {
+    0% {transform:rotate(-5deg)}
+    25% {transform:rotate(0deg)}
+    50% {transform:rotate(5deg)}
+    60% {transform:scale(1.1)}
+    75% {transform:rotate(0deg)}
+    100% {transform:rotate(-5deg)}
+}
+.titleContainer:hover{
+    transform: scale(1.1);
+}
+
+.titleComponent1{
+  width:50%;
+  height:180px;
+  float: left;
+}
+
+.titleComponent1 > img{
+    width:100%;
+    height:180px;
+}
+.titleComponent2{
+    width:45%;
+    margin-left: 5%;
+    margin-top: 14%;
+    float: left;
+}
+.componentHeading > a{
+    color:#e28b62;
+    font-size: 25px;
+}
+h3{
+    color:#d31b67;
+    margin-top: 10px;
+    font-size:24px;
+    width: 50px;
+}
+h3:hover{
+    font-size:30px;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
+}
+#resturant{
+    height:47px;
+}
+
+.select{
+    height:60px;
+    width:40%;
+    font-size:20px;
+    text-align:center;
+    float:left;
+    margin-left: -44px;
+}
+#footer{
+    height:120px;
+    width:100%;
+    margin-top: 5%;
+    background-color:#ebc62a6e;
+}
+
+#footText{
+    text-align: center;
+}
+
+.footDiv{
+    height:57px;
+    width:33%;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+}
+.image{
+    height:10px;
+    width:20px;
+}
+.f1{
+    height:20px;
+    width:20px;
+    margin-left:65px;
+    margin-top:8px;
+}
+
+
+.noBorder{
+    border:none;
+}
+@media screen and (max-width:1400px) {
+    body {
+        background-color:lightgray;
+    }
+    .dropdown{
+        margin-left: 28%;
+        margin-top: -12%;
+    }
+}
+@media screen and (max-width:1200px) {
+    body {
+        background-color:lightgray;
+    }
+    #logo{
+        margin-top:-34%;
+        margin-left:490px;
+    }
+    #heading{
+        margin-left:357px;
+        margin-top:-185px;
+        font-size:44px;
+    }
+    .dropdown{
+        margin-left:298px;
+        margin-top:-125px;
+        height:30px;
+    }
+    select{
+        width:33%;
+        font-size:16px;
+        height: 41px;
+    }
+
+}
+@media screen and (max-width:1000px) {
+    body {
+        background-color:lightgray;
+    }
+    #heading{
+        margin-left:317px;
+        margin-top:-223px;
+        font-size:40px;
+    }
+    .dropdown{
+        margin-left:290px;
+        margin-top:-161px;
+    }
+    #b1{
+        height:52px;
+        margin-left:-33px;
+    }
+    #resturant{
+        height:47px;
+    }
+    .titleContainer{
+        width:45%;
+    }
+    #logo{
+        margin-top:-41%;
+        height:130px;
+        width:117px;
+        margin-left:399px;
+    }
+    #logo>span{
+        font-size:60px;
+    }
+}
+@media screen and (max-width:900px) {
+    body {
+        background-color:lightgray;
+    }
+    #heading{
+        margin-left:259px;
+        margin-top:-240px;
+        font-size:40px;
+    }
+    .dropdown{
+        margin-left:187px;
+        margin-top:-161px;
+        width:56%;
+    }
+    #b1{
+        height:52px;
+        margin-left:71px;
+        width:201px;
+    }
+    #resturant{
+        height:47px;
+        width:201px;
+    }
+    .titleContainer{
+        width:45%;
+    }
+    #logo{
+        margin-top:-384px;
+        margin-left:380px;
+        height:144px;
+        width:144px;
+    }
+
+}
+@media screen and (max-width:700px) {
+    body {
+        background-color:lightgray;
+    }
+    #heading{
+        margin-left:140px;
+        margin-top:-233px;
+        font-size:40px;
+    }
+    .dropdown{
+        margin-left:48px;
+        margin-top:-161px;
+        width:56%;
+    }
+    #b1{
+        height:49px;
+        margin-left:99px;
+        width:189px;
+    }
+    #resturant{
+        height:47px;
+        width:189px;
+    }
+    .titleContainer{
+        width:45%;
+    }
+    #logo{
+        margin-top:-382px;
+        margin-left:240px;
+        height:138px;
+        width:138px;
+    }
+}
+@media screen and (max-width:600px) {
+    body {
+        background-color:lightgray;
+    }
+    #heading{
+        margin-left:140px;
+        margin-top:-233px;
+        font-size:40px;
+    }
+    .dropdown{
+        margin-left:187px;
+        margin-top:-161px;
+        width:56%;
+    }
+    #b1{
+        height:49px;
+        margin-left:-80px;
+        width:189px;
+    }
+    #resturant{
+        height:47px;
+        width:189px;
+        margin-left:-260px;
+    }
+    .titleContainer{
+        width:98%;
+    }
+    #logo{
+        margin-top:-70%;
+        height:133px;
+        width:126px;
+    }
+    h3{
+        font-size:20px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    body {
+        background-color:lightgray;
+    }
+    #heading{
+        margin-left:92px;
+        margin-top:-233px;
+        font-size:40px;
+    }
+    .dropdown{
+        margin-left:187px;
+        margin-top:-161px;
+        width:56%;
+    }
+    #b1{
+        height:44px;
+        margin-left:-60px;
+        width:162px;
+        margin-top:14px;
+    }
+    #resturant{
+        height:42px;
+        width:148px;
+        margin-left:-323px;
+    }
+    .titleContainer{
+        width:98%;
+    }
+    #logo{
+        margin-top:-77%;
+        height:113px;
+        width:99px;
+        margin-left:200px;
+    }
+    #logo>span{
+        font-size:60px;
+    }
+    
+}
